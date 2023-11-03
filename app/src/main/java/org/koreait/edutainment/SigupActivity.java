@@ -8,9 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 public class SigupActivity extends AppCompatActivity {
     TextView back;
-    EditText name,id,pw,pw2,email,birthyear,birthdate,birthday;
+    EditText name,id,pw,pw2,birthyear,birthdate,birthday;
     Button pwcheck, submit;
 
     @Override
