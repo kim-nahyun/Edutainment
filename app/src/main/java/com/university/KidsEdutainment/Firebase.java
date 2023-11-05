@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import org.koreait.edutainment.R;
+
 public class Firebase extends AppCompatActivity {
 
     @Override
