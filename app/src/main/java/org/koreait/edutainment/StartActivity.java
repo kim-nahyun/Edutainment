@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class StartActivity extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity { //Amazon Polly 여기에다가
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,4 +12,5 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
     }
+
 }
