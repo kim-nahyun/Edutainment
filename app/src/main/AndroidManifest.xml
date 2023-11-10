@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.koreait.edutainment">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +13,7 @@
         android:theme="@style/Theme.Edutainment">
         <activity
             android:name=".StartActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ProgressActivity"
             android:exported="false" />
@@ -21,12 +22,6 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_zoom"
-            android:theme="@style/Theme.Edutainment.Fullscreen" />
-        <activity
-            android:name=".SpeakActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_speak"
             android:theme="@style/Theme.Edutainment.Fullscreen" />
         <activity
             android:name=".IntroActivity"
