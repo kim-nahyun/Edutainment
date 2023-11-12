@@ -17,15 +17,15 @@ public class MainActivity extends AppCompatActivity {
         super.onPostCreate(saveInstanceState);
         setContentView(R.layout.activity_main);
 
-        sign = findViewById(R.id.SpeakButton);
+        sign = findViewById(R.id.ProgressButton);
         sign.setOnClickListener(v ->{
-            Intent intent = new Intent(this,SpeakActivity.class);
+            Intent intent = new Intent(this,ProgressActivity.class);
             startActivity(intent);
         });
 
         sign = findViewById(R.id.PlayButton);
         sign.setOnClickListener(v ->{
-            Intent intent = new Intent(this,ZoomActivity.class);
+            Intent intent = new Intent(this, PlayActivity.class);
             startActivity(intent);
         });
     }
