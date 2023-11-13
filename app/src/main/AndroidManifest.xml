@@ -16,10 +16,6 @@
             android:name=".StartActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.StartEx2Activity"
-            android:exported="false"
-            android:label="@string/title_activity_start_ex2" />
-        <activity
             android:name=".StartExActivity"
             android:exported="false" />
         <activity
